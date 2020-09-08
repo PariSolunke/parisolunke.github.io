@@ -1,0 +1,166 @@
+header{
+  padding: 1%;
+  padding-bottom: 0%;
+  background:#2b2b2e;
+  color:#f0e9c7;
+
+}
+nav{
+ text-align: center;
+ 
+}
+nav a{
+text-align: center;
+text-decoration: none;
+color:#f0e9c7;
+padding:1% 0;
+width:22%;
+display: inline-block;
+
+}
+.current{
+  background:#f0e9c7;
+  color:#ac3b61;
+  font-weight: bold;
+}
+
+header h1{
+  margin:1% 30% 1% 0.5%;
+}
+body{
+  margin:0;
+  background:#f0e9c7;
+font-family: Helvetica, Geneva, Tahoma, sans-serif;
+font-size:120%;
+
+}
+
+#about
+{
+  padding:5%;
+  border: #2b2b2e solid 5px;
+  border-radius: 5%;
+  margin:5%;
+}
+h2{
+  color:#ac3b61;
+
+}
+.left{
+  
+  vertical-align: top;
+  width:50%;
+  display: inline-block;
+   
+ }
+ .right{
+   margin-left: 10%;
+   width:50%;
+  
+  display: inline-block;
+  
+ }
+#Me{
+  border: #2b2b2e solid 4px;
+  border-radius: 2%;
+  max-width: 35%;
+  max-height: 90vh;
+ }
+ 
+ a:hover
+ {
+  background:#f0e9c7;
+  color:#ac3b61;
+  font-weight: bold;
+  opacity: 0.5;
+ }
+ footer{
+   font-family: Arial, Helvetica, sans-serif;
+  padding: 1% 5%;
+  font-size: 70%;
+  background:#2b2b2e;
+  
+
+}
+address a{
+ color:#f7fad4;
+}
+ 
+#vis{
+  border: #2b2b2e solid 5px;
+  border-radius: 5%;
+  margin:5%;
+  padding:5%;
+}
+#vis h2{
+  margin-top: 0;
+  margin-bottom: 0.5%;
+
+}
+
+#sources{
+  border: #2b2b2e solid 5px;
+  border-radius: 5%;
+  margin:5%;
+  margin-top: 2%;
+  padding:5%;
+
+}
+
+#svg{
+  border: #2b2b2e solid 5px;
+  border-radius: 5%;
+  margin:5%;
+  margin-top: 2%;
+  padding:5%;
+}
+
+#tl{
+  margin-top: 1%;
+  width:100%;
+}
+figcaption{
+  font-size: 75%;
+  text-align: center;
+}
+svg{
+  
+  width:100%;
+  display: block;
+  
+}
+
+
+ #circ{
+  animation:  goleft 2s linear infinite;
+}
+
+@keyframes goleft {
+  0%   {transform: translateX(0)}
+  25%  {transform: translateX(-80px)}
+  75%  {transform: translateX(-160px)}
+  100% {transform: translateX(0)}
+}
+
+#rect1{
+
+  animation:  grow 2s linear infinite;
+}
+
+@keyframes grow {
+  0%   {transform: scaleY(1);}
+  50%  {transform: scaleY(1.6);}
+  100% {transform: scaleY(1);}
+}
+
+#svg3 {
+  
+  animation: rotate 5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
